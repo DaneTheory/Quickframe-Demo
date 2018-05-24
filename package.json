@@ -1,0 +1,15 @@
+{
+  "name": "quickframe-demo",
+  "version": "1.0.0",
+  "description": "Browser application demo. Ad Demo.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "prod": "pm2 start ./server/server.js --name quickframe-demo"
+  },
+  "author": "Branden Dane",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
